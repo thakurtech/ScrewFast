@@ -1,5 +1,5 @@
 ---
-const { title = "Log in" } = Astro.props;
+const { title = "Book Call" } = Astro.props;
 
 interface Props {
   title?: string;
@@ -28,13 +28,14 @@ const userSVG = `<svg
   </svg>`;
 ---
 
-<button
-  type="button"
-  class={`${baseClasses} ${hoverClasses} ${darkClasses} ${mdClasses} ${txtSizeClasses}`}
-  data-hs-overlay="#hs-toggle-between-modals-login-modal"
->
-  <!-- About Fragment: https://docs.astro.build/en/basics/astro-syntax/#fragments -->
+<a href="https://calendly.com/event_types/170433124/edit?return_to=%2Fevent_types%2Fuser%2Fme">
+  <button
+    type="button"
+    class={`${baseClasses} ${hoverClasses} ${darkClasses} ${mdClasses} ${txtSizeClasses}`}
+  >
+    <!-- About Fragment: https://docs.astro.build/en/basics/astro-syntax/#fragments -->
+    <Fragment set:html={userSVG} />
+    {title}
+  </button>
+</a>
 
-  <Fragment set:html={userSVG} />
-  {title}
-</button>
