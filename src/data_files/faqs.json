@@ -2,31 +2,28 @@
   "subTitle": "Ask us anything about our brand and products, and get factual responses.",
   "faqs": [
     {
-      "question": "What industries does your AI consultation firm specialize in?",
-      "answer": "We cater to a wide range of industries including finance, healthcare, retail, manufacturing, and more. Our adaptable expertise ensures tailored solutions regardless of the sector."
+      "question": "What types of tools are included in the Starter Kit?",
+      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
     },
     {
-      "question": "How do you ensure the security of our data during AI implementation?",
-      "answer": "Security is paramount to us. We employ state-of-the-art encryption protocols and follow strict data protection regulations to safeguard your information throughout the AI integration process."
+      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
+      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
     },
     {
-      "question": "Can you customize AI solutions according to our specific business needs?",
-      "answer": "Absolutely. Our approach is highly flexible, and we prioritize understanding your unique challenges and objectives. We tailor our solutions to fit seamlessly into your existing workflows and optimize performance accordingly."
+      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
+      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
     },
     {
-      "question": "How do you ensure the scalability of AI solutions as our business grows?",
-      "answer": "Our team designs AI solutions with scalability in mind from the outset. Whether you're a startup or an enterprise, our modular approach allows for seamless expansion and adaptation to evolving business requirements."
+      "question": "What kind of customer support can I expect?",
+      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
     },
     {
-      "question": "What sets your analytics team apart from others?",
-      "answer": "Our analytics team comprises seasoned professionals with diverse backgrounds and a wealth of experience. They leverage cutting-edge tools and methodologies to extract actionable insights that drive tangible business results."
+      "question": "How current are the online resources and tutorials?",
+      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
     },
     {
-      "question": "I have other too , where to find?",
-      "answer": "You can book a absolutely free consulation call withus where we will help you to scale , just cick on book a meeting button on the page :)"
+      "question": "Does ScrewFast offer services for large-scale construction projects?",
+      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
     }
   ]
 }
-
-
-
