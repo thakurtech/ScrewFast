@@ -1,5 +1,5 @@
 ---
-const { title = "Log in" } = Astro.props;
+const { title = "Free meeting" } = Astro.props;
 
 interface Props {
   title?: string;
@@ -26,15 +26,16 @@ const userSVG = `<svg
     <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
     <circle cx="12" cy="7" r="4"></circle>
   </svg>`;
+const calendlyLink = "https://calendly.com/sumitthakur5044";
 ---
 
-<button
-  type="button"
-  class={`${baseClasses} ${hoverClasses} ${darkClasses} ${mdClasses} ${txtSizeClasses}`}
-  data-hs-overlay="#hs-toggle-between-modals-login-modal"
->
-  <!-- About Fragment: https://docs.astro.build/en/basics/astro-syntax/#fragments -->
-
-  <Fragment set:html={userSVG} />
-  {title}
-</button>
+<a href={calendlyLink}>
+  <button
+    type="button"
+    class={`${baseClasses} ${hoverClasses} ${darkClasses} ${mdClasses} ${txtSizeClasses}`}
+  >
+    <!-- About Fragment: https://docs.astro.build/en/basics/astro-syntax/#fragments -->
+    <Fragment set:html={userSVG} />
+    {title}
+  </button>
+</a>
